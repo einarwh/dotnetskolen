@@ -369,7 +369,7 @@ Som du ser av malene som er listet ut over, er det en innebygget mal for web-API
 Kjør følgende kommando for å opprette API-prosjektet
 
 ```bash
-dotnet new console --language F# --output src/api --name NRK.Dotnetskolen.Api
+dotnet new console --language "F#" --output src/api --name NRK.Dotnetskolen.Api
 ```
 
 ```bash
@@ -583,7 +583,7 @@ I dette kurset kommer vi til å bruke xUnit. Dette valget er litt vilkårlig ett
 Kjør følgende kommando for å opprette enhetstestprosjektet
 
 ```bash
-dotnet new xunit -lang F# -o test/unit -n NRK.Dotnetskolen.UnitTests
+dotnet new xunit -lang "F#" -o test/unit -n NRK.Dotnetskolen.UnitTests
 ```
 
 ```bash
@@ -723,7 +723,7 @@ Build succeeded in 2,9s
 For å opprette integrasjonstestprosjektet, kan du kjøre samme kommando som da du [opprettet enhetstestprosjektet](#opprette-enhetstestprosjekt), men bytt ut `Unit` med `Integration` i navnet på testprosjektet, som vist under:
 
 ```bash
-dotnet new xunit -lang F# -o test/integration -n NRK.Dotnetskolen.IntegrationTests
+dotnet new xunit -lang "F#" -o test/integration -n NRK.Dotnetskolen.IntegrationTests
 ```
 
 ```bash
